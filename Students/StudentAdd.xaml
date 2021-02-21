@@ -1,0 +1,27 @@
+﻿<Window x:Class="CollageOrganization1.Windows.Students.StudentAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollageOrganization1.Windows.Students"
+        mc:Ignorable="d"
+        Title="StudentAdd" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblFormHeader" Content="Add Student" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24" Height="48" Width="389"/>
+        <Label x:Name="lblFirstName" Content="FirstName" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="27" Margin="295,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+        <Label x:Name="lblLastName" Content="LastName" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="26" Margin="295,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+        <ComboBox x:Name="cboGender" HorizontalAlignment="Left" Margin="295,256,0,0" VerticalAlignment="Top" Width="487" Height="26"/>
+        <Label x:Name="lblGender" Content="Gender" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="457,366,0,0" VerticalAlignment="Top" Width="325" Height="37" Click="btnAdd_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="74,366,0,0" VerticalAlignment="Top" Width="325" Height="37"/>
+        <TextBlock x:Name="txtbErrors" HorizontalAlignment="Left" Margin="295,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="487" Foreground="#FFFC0909" FontSize="10"/>
+        <Label x:Name="lblDepartmentName" Content="DepartmentName" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <Label x:Name="lblContactNumber" Content="ContactNumber" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <TextBox x:Name="txtContactNumber" HorizontalAlignment="Left" Height="27" Margin="295,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+        <Label x:Name="lblEmailAddress" Content="EmailAddress" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="285" Height="30"/>
+        <TextBox x:Name="txtEmailAddress" HorizontalAlignment="Left" Height="26" Margin="295,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+        <TextBox x:Name="txtDepartmentName" HorizontalAlignment="Left" Height="26" Margin="295,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+    </Grid>
+</Window>
